@@ -19,7 +19,7 @@ MySQL 一般部署成主从，这个请你们的 DBA 来搞吧，或者直接使
 
 ### n9e-webapi
 
-这个模块是放中心的，可以部署多个实例，前面统一放置 nginx 或者 lvs，某个 n9e-webapi 实例如果挂了，nginx、lvs 都可以自动摘除，保证了高可用。
+这个模块是多中心的，可以部署多个实例，前面统一放置 nginx 或者 lvs，某个 n9e-webapi 实例如果挂了，nginx、lvs 都可以自动摘除，保证了高可用。
 
 ### n9e-server
 
